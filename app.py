@@ -4,7 +4,7 @@ import os
 import requests
 import PIL
 from io import BytesIO
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
 
 from tensorflow.keras.preprocessing.image import load_img, img_to_array

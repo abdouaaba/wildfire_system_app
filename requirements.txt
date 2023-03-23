@@ -1,5 +1,4 @@
 tensorflow
 numpy
-python-dotenv
 Pillow
 requests
