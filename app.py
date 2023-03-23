@@ -3,7 +3,6 @@ import numpy as np
 import os
 import requests
 import PIL
-import cv2
 from io import BytesIO
 from dotenv import load_dotenv
 
@@ -108,7 +107,7 @@ def main():
             with col1:
                 st.image(result, caption="Predicted Mask", use_column_width=True)
             with col2:
-                blend = cv2.addWeighted(np.array(image[0])*255, 0.5, result, 0.5, 0, dtype = cv2.CV_32F) / 255.0
+                blend = ((np.array(image[0]) * 255 * 0.5) + (result * 0.5)) / 255.0
                 st.image(blend, caption="Blended Image", use_column_width=True)
 
 
