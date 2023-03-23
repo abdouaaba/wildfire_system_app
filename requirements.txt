@@ -3,4 +3,4 @@ numpy
 python-dotenv
 Pillow
 requests
-cv2
+opencv-python
