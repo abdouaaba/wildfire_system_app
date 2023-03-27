@@ -39,7 +39,7 @@ def segment(model, image):
 
 # Create the Streamlit app
 def main():
-    st.title("Wildfire System App :fire:")
+    st.title("Wildfire System App")
 
     # Create tabs to select the model
     model_selection = st.radio(
