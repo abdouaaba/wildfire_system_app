@@ -17,7 +17,7 @@ The app allows users to choose between the two models: wildfire risk prediction 
 - To run the app locally, follow these steps:
 
 1. Clone this repository using the command:
-git clone https://github.com/yourusername/wildfire-burn-scar-segmentation-app.git
+git clone https://github.com/abdouaaba/wildfire_system_app.git
 
 2. Install the required packages:
 pip install -r requirements.txt
